@@ -1,0 +1,8 @@
+<suite thread-count="1" verbose="0" name="Sample_Test" parallel="methods">
+<!-- suite name="Default Suite" -->
+<test verbose="5" name="Sample_Test" annotations="JDK" skipfailedinvocationCounts="true">
+<packages>
+<package name="sampleFramework"/>
+</packages>
+</test>
+</suite>
