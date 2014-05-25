@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Sample_Test]" parallel="methods">
+  <test name="Sample_Test(failed)" parallel="methods">
+    <classes>
+      <class name="sampleFramework.SampleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="SearchAssistTest"/>
+        </methods>
+      </class> <!-- sampleFramework.SampleTest -->
+    </classes>
+  </test> <!-- Sample_Test(failed) -->
+</suite> <!-- Failed suite [Sample_Test] -->
