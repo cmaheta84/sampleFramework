@@ -30,16 +30,16 @@ public class SampleTest{
   @Test
   public void SearchAssistTest() throws InterruptedException {
 	  
-	  driver.get("http://www.google.com");
+	  driver.get("http://www.search.yahoo.com");
       // Alternatively the same thing can be done like this
       // driver.navigate().to("http://www.google.com");
-	  WebElement eleSearchBox = driver.findElement(By.xpath(".//*[@id='gs_htif0']"));
+	  WebElement eleSearchBox = driver.findElement(By.cssSelector("#yschsp"));
      
 	  eleSearchBox.sendKeys("Cheese!");
       Thread.sleep(5000);
      
       // Now submit the form. WebDriver will find the form for us from the element
-      WebElement eleSearchBtn = driver.findElement(By.xpath(".//*[@id='gbqfb']"));
+      WebElement eleSearchBtn = driver.findElement(By.cssSelector(".sbb"));
       eleSearchBtn.click();
       Thread.sleep(5000);
 
