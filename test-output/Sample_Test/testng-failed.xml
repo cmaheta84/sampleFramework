@@ -5,8 +5,8 @@
     <classes>
       <class name="sampleFramework.SampleTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
           <include name="SearchAssistTest"/>
         </methods>
       </class> <!-- sampleFramework.SampleTest -->
